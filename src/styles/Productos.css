@@ -21,16 +21,18 @@
 .card-text .text-muted {
     color: rgb(250, 203, 116) !important;
     font-weight: 600;
+    
 }
 
 .image-prods {
-    max-height: 300px;
-    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+ 
 }
 
-@media screen and (min-width: 200px) {
-    .image-prods {
-        min-height: 350px;
-        width: 100%;
-    }
+.btn-info-prods:hover {
+    background-color: #FFC107 !important;
+    color: #886600 !important;
 }
