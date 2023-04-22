@@ -36,3 +36,23 @@
     background-color: #FFC107 !important;
     color: #886600 !important;
 }
+
+.producto-destacado {
+    background-color: #BCA177;
+}
+
+.producto-destacado :nth-child(1){
+    color: #594300 !important;
+}
+
+.btn-info-prods-destacado {
+    background-color: #BCA177 !important;
+    color: #594300 !important;
+    border-color: #594300 !important;
+}
+
+.btn-info-prods-destacado:hover {
+    background-color: #594300 !important;
+    color: #BCA177 !important;
+    border-color: #594300 !important;
+}

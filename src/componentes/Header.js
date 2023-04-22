@@ -22,10 +22,10 @@ const Header = () => {
             </div>
         </nav>
         
-        <div className='d-flex flex-column col-12 col-sm-6  text-white align-self-end mt-5 pt-5 pb-5 pe-2 ps-2'>
+        <div className='d-flex flex-column col-12 col-sm-6  text-white align-self-end mt-5 p-5'>
             <h1 className='text-uppercase'>Dulces del alma</h1>
             <p>Los productos HUMAYA son elaborados desde hace más de 50 años fiel a las tradiciones familiares y sabores caseros, acompañándote en los momentos más importantes de la vida.</p>
-            <button type="button" className='text-uppercase col-6 align-self-center btn btn-dark'>Conocenos</button>
+            <button type="button" className='text-uppercase fw-bold col-9 col-md-6 p-3 align-self-center btn bg-dark bg-opacity-75 text-white rounded-pill btn-conocenos'>Conocenos</button>
         </div>
         
     </div>
