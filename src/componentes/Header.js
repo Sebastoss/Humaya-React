@@ -2,21 +2,21 @@ import '../styles/Header.css';
 
 const Header = () => {
   return (
-    <div className="fondo-humaya-header d-flex flex-column align-items-center">
+    <div id='home' className="fondo-humaya-header d-flex flex-column align-items-center">
 
         <nav className="navbar navbar-expand-md container-fluid">
             <div className="container-fluid d-flex ">
-                <a className="navbar-brand me-0 text-white fw-bolder" href="#"><img src="../../img/LogoMenu60x48.png" alt="" /></a>
+                <a className="navbar-brand me-0 text-white fw-bolder" href="#home"><img src="../../img/LogoMenu60x48.png" alt="" /></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <div className="navbar-nav d-flex align-items-center">
-                        <a className="nav-link text-white fw-bolder" aria-current="page" href="#">Home</a>
-                        <a className="nav-link text-white fw-bolder" href="#">Productos</a>
-                        <a className="logo me-0 text-white fw-bolder" href="#"><img src="../../img/LogoHumaya100x100.png" alt="" /></a>
-                        <a className="nav-link text-white fw-bolder" href="#">Locales</a>
-                        <a className="nav-link text-white fw-bolder" href="#">Contacto</a>
+                        <a className="nav-link text-white fw-bolder" aria-current="page" href="#home">Home</a>
+                        <a className="nav-link text-white fw-bolder" href="#productos">Productos</a>
+                        <a className="logo me-0 text-white fw-bolder" href="#home"><img src="../../img/LogoHumaya100x100.png" alt="" /></a>
+                        <a className="nav-link text-white fw-bolder" href="#productos">Locales</a>
+                        <a className="nav-link text-white fw-bolder" href="#productos">Contacto</a>
                     </div>
                 </div>
             </div>

@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="container-md p-0">
       <Header />
-      <div className="productos-encabezado">
+      <div id="productos" className="productos-encabezado">
             <h1 className='p-4 m-0 text-center text-uppercase h3'>Productos</h1>
         </div>
         {prods.map(producto => (
