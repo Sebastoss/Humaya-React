@@ -2,7 +2,7 @@ import '../styles/Header.css';
 
 const Header = () => {
   return (
-    <div className="container-fluid fondo-humaya-header d-flex flex-column align-items-center">
+    <div className="fondo-humaya-header d-flex flex-column align-items-center">
 
         <nav className="navbar navbar-expand-md container-fluid">
             <div className="container-fluid d-flex ">
@@ -22,7 +22,7 @@ const Header = () => {
             </div>
         </nav>
         
-        <div className='d-flex flex-column col-12 col-sm-6  text-white align-self-end mt-5 pt-5 pb-5'>
+        <div className='d-flex flex-column col-12 col-sm-6  text-white align-self-end mt-5 pt-5 pb-5 pe-2 ps-2'>
             <h1 className='text-uppercase'>Dulces del alma</h1>
             <p>Los productos HUMAYA son elaborados desde hace más de 50 años fiel a las tradiciones familiares y sabores caseros, acompañándote en los momentos más importantes de la vida.</p>
             <button type="button" className='text-uppercase col-6 align-self-center btn btn-dark'>Conocenos</button>
