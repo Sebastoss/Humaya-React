@@ -80,34 +80,34 @@ function App() {
           <div className='col-sm-12 col-md-2 pt-3'>
             <ul className='pe-5'>
               <li className='fs-4'>Menú</li>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Productos</a></li>
-              <li><a href="#">Locales</a></li>
-              <li><a href="#">Contactos</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#home">Productos</a></li>
+              <li><a href="#home">Locales</a></li>
+              <li><a href="#home">Contactos</a></li>
             </ul>
           </div>
           <div className='col-sm-12 col-md-2 pt-3'>
             <ul className='pe-5'>
               <li className='fs-4'>Navegación</li>
-              <li><a href="#">Preguntas frecuentes</a></li>
-              <li><a href="#">Distribuidores</a></li>
-              <li><a href="#">Prensa</a></li>
-              <li><a href="#">Recetas exclusivas</a></li>
+              <li><a href="#home">Preguntas frecuentes</a></li>
+              <li><a href="#home">Distribuidores</a></li>
+              <li><a href="#home">Prensa</a></li>
+              <li><a href="#home">Recetas exclusivas</a></li>
             </ul>
           </div>
           <div className='col-sm-12 col-md-2 pt-3'>
             <ul className='pe-5'>
               <li className='fs-4'>Redes</li>
-              <li><a href="#"><img src="../img/icono-fb.png" className='iconos-redes' alt=""/></a></li>
-              <li><a href="#"><img src="../img/icono-ig.png" className='iconos-redes' alt=""/></a></li>
-              <li><a href="#"><img src="../img/icono-tiktok.png" className='iconos-redes' alt=""/></a></li>
+              <li><a href="#home"><img src="../img/icono-fb.png" className='iconos-redes' alt=""/></a></li>
+              <li><a href="#home"><img src="../img/icono-ig.png" className='iconos-redes' alt=""/></a></li>
+              <li><a href="#home"><img src="../img/icono-tiktok.png" className='iconos-redes' alt=""/></a></li>
             </ul>
           </div>
           <div className='col-sm-12 col-md-3 pt-3'>
             <ul className='pe-5'>
               <li className='fs-4'>Ubicación</li>
               <li className='text-white fw-bolder'>Monte de Oca 2356, CABA</li>
-              <li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.0392303583576!2d-58.373096124500634!3d-34.653712172936395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334aab78be889%3A0xe808082ff7311cac!2sAv.%20Montes%20de%20Oca%202356%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1683573003660!5m2!1ses!2sar" width="100%" height="100%" style={{border:"0"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe></li>
+              <li><iframe title="Mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.0392303583576!2d-58.373096124500634!3d-34.653712172936395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334aab78be889%3A0xe808082ff7311cac!2sAv.%20Montes%20de%20Oca%202356%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1683573003660!5m2!1ses!2sar" width="100%" height="100%" style={{border:"0"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe></li>
             </ul>
           </div>
         </div>
