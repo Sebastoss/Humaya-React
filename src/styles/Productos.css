@@ -56,3 +56,11 @@
     color: #BCA177 !important;
     border-color: #594300 !important;
 }
+
+.productos-calidad {
+    background-color: #2F2C2C;
+}
+
+.iconos-calidad {
+    filter: brightness(0) saturate(100%) invert(73%) sepia(13%) saturate(883%) hue-rotate(357deg) brightness(88%) contrast(88%);
+}

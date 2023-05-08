@@ -16,7 +16,7 @@ const Header = () => {
                         <a className="nav-link text-white fw-bolder" href="#productos">Productos</a>
                         <a className="logo me-0 text-white fw-bolder" href="#home"><img src="../../img/LogoHumaya100x100.png" alt="" /></a>
                         <a className="nav-link text-white fw-bolder" href="#productos">Locales</a>
-                        <a className="nav-link text-white fw-bolder" href="#productos">Contacto</a>
+                        <a className="nav-link text-white fw-bolder" href="#contacto">Contacto</a>
                     </div>
                 </div>
             </div>

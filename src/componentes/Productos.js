@@ -18,7 +18,7 @@ const Productos = (props) => {
                     </div>
                 </div>
             </div>
-    </div>
+        </div>
     : props.pos === "1" ? 
         <div className="card bg-dark">
             <div className="row g-0">
@@ -52,7 +52,9 @@ const Productos = (props) => {
             </div>
         </div>
         : null }
+
     </div>
+    
 
   )
 }
